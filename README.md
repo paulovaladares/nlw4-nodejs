@@ -1,9 +1,40 @@
 ## Curso NodesJS da Rocketseat
 
-Backend pré-pronto do curso treinamento de Vue.js 3
+[NLW#4] Trilha Node.js - curso da Rocketseat
+[Link para o evento](https://nextlevelweek.com/episodios/node/1/edicao/4)
 
-### Comments
 
+### Dia 1 - Rumo ao Próximo Nível
+
+No primeiro dia vamos aprender os conceitos básicos sobre o que é uma API, entender o que é o NodeJS, onde ele tem sido utilizado e qual problema ele veio solucionar e também. Vamos também conhecer o TypeScript e entender como ele irá nos ajudar durante o desenvolvimento da nossa aplicação. Já nessa aula vamos dar início ao desenvolvimento da nossa API, colocando em prática alguns dos conceitos aprendidos.
+
+- [ ]  Introdução ao NodesJS
+- [ ]  Setup inicial
+
+
+### Dia 2 - Testando a nossa aplicação
+
+No segundo dia vamos iniciar a configuração do banco de dados na nossa aplicação, aprendendo algumas formas possíveis para realizar o acesso do banco de dados através do Nodejs. Vamos entender os conceitos de migrations, models e criar nossa primeira tabela de usuário. Também nessa aula iremos aprender e criar nosso primeiro Controller, isolando toda regra para dentro dele.
+
+- [ ]  Conhecendo as formas de trabalhar com banco de dados na aplicação
+- [ ]  Configurar o TypeORM na aplicação
+- [ ]  Criar migration de usuário
+- [ ]  Criar model de usuário
+- [ ]  Criar controller do usuário
+- [ ]  Criar rota do usuário
+
+
+### Dia 3 - Testando a nossa aplicação
+
+No terceiro dia vamos conhecer o conceito de Repository e como podemos utilizar ele para separar as responsabilidades nos componentes corretos. Vamos também dar inícios aos testes automatizados e entender os benefícios que eles trazem para a nossa aplicação.
+
+
+### Dia 4 - Envio de e-mail
+
+No quarto dia vamos aprender como enviar e-mail, utilizando templates customizados com informações vindas do banco de dados. Vamos aprender também como utilizar variáveis de ambiente dentro da aplicação
+
+
+### Anotações
 ```
 Conexões com DB
 
