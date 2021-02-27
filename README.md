@@ -36,7 +36,7 @@ No quarto dia vamos aprender como enviar e-mail, utilizando templates customizad
 
 ### Anotações
 
-## Conexões com DB
+#### Conexões com DB
 
 - Drivers nativos
 - [Knex.js](http://knexjs.org)
@@ -50,6 +50,24 @@ Migrations
 
 Use [Beekeeper Studio](https://www.beekeeperstudio.io/) for sqlite
 
-## Testes
+#### Testes Automatizados
 
 - Unitários
+    ex: testes isolados de cada função
+- Integração
+    ex: request -> routes -> controllers -> repository
+    <- way back>
+- Ponta a Ponta (E2E)
+    ex: Comportamento
+
+Usaremos aqui o JEST
+- yarn add jest @types/jest -D
+
+Criar arquivo de configuração
+- yarn jest --init
+
+Caso use TypeScript, temos que instalar para usar como "preset":
+- yarn add ts-jest -D
+
+Para simular requiseições HTTP:
+- yarn add supertest @types/supertest -D
