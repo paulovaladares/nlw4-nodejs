@@ -29,23 +29,21 @@ class SendMailController {
         }
 
         const surveySent = await surveysUsersRepository.findOne({ 
-            where: [
-                { user_id: user.id },
-                { value: null }
-            ],
+            where: { user_id: user.id, value: null },
             relations: ["user", "survey"]
          });
 
          const npsPath = resolve(__dirname, '..', 'views', 'emails', 'npsMail.hbs');
          const bodyInfo = {
-             user_id: user.id,
              name: user.name,
              title: survey.title,
              description: survey.description,
              link: process.env.URL_MAIL,
+             suid: ""
          }
 
          if (surveySent) {
+             bodyInfo.suid = surveySent.id;
              await SendMailService.execute(email, survey.title, npsPath, bodyInfo);
              return response.json(surveySent);
          }
@@ -60,6 +58,7 @@ class SendMailController {
         
         
         // send email
+        bodyInfo.suid = survey.id;
         await SendMailService.execute(email, survey.title, npsPath, bodyInfo);
 
         return response.json(surveyUser);
