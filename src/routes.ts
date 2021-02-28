@@ -1,9 +1,9 @@
 import { Router } from 'express';
 import AnswerController from './controllers/AnswerController';
-import NpsController from './controllers/NPSController';
 import SendMailController from './controllers/SendMailController';
 import SurveyController from './controllers/SurveyController';
 import UserController from './controllers/UserController';
+import NpsController from './controllers/NpsController';
 
 const router = Router();
 const userController = new UserController();
