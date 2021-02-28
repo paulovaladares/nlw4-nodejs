@@ -1,0 +1,41 @@
+<style>
+    .container {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+    .nota{
+        width: 15px;
+        padding:10px;
+        background: #8257e6;
+        color: #fff;
+        border-radius: 6px;
+        text-align: center;
+        text-decoration: none
+    }
+    .notas li {
+        margin: 15px 2px;
+        display: inline-block;
+    }
+</style>
+
+<div class="container">
+    <p>olá <strong>{{name}}</strong>! Tudo bem?</p>
+    <h3>{{title}}</h3>
+    <br>
+    <strong>{{description}}</strong>
+    <br><br>
+    <ul class="notas">
+        <li><a href="{{link}}/1?uid={{user_id}}" class="nota">1</a></li>
+        <li><a href="{{link}}/2?uid={{user_id}}" class="nota">2</a></li>
+        <li><a href="{{link}}/3?uid={{user_id}}" class="nota">3</a></li>
+        <li><a href="{{link}}/4?uid={{user_id}}" class="nota">4</a></li>
+        <li><a href="{{link}}/5?uid={{user_id}}" class="nota">5</a></li>
+        <li><a href="{{link}}/6?uid={{user_id}}" class="nota">6</a></li>
+        <li><a href="{{link}}/7?uid={{user_id}}" class="nota">7</a></li>
+        <li><a href="{{link}}/8?uid={{user_id}}" class="nota">8</a></li>
+        <li><a href="{{link}}/9?uid={{user_id}}" class="nota">9</a></li>
+        <li><a href="{{link}}/10?uid={{user_id}}" class="nota">10</a></li>
+    </ul>
+    <strong>Sua opinião é muito importante</strong>
+</div>

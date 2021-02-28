@@ -71,3 +71,13 @@ Caso use TypeScript, temos que instalar para usar como "preset":
 
 Para simular requiseições HTTP:
 - yarn add supertest @types/supertest -D
+
+#### Envio de email
+
+- [Nodemailer](https://nodemailer.com) - as mail client
+- [Ethereal](https://ethereal.email) - to send email
+- [Handlebars](https://handlebarsjs.com/) - create semantic templates
+- [Emmet Documentation](https://docs.emmet.io/cheat-sheet/)
+
+Para gerar dados fake: [FakerJs](http://marak.github.io/faker.js/)
+
