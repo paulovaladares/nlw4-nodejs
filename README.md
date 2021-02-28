@@ -92,3 +92,7 @@ Yup is a JavaScript schema builder for value parsing and validation.
 - yarn add yup
 [Yup](https://www.npmjs.com/package/yup?activeTab=readme)
 
+#### Message Error refactoring
+
+- yarn add express-async-errors
+
