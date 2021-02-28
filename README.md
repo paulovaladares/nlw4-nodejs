@@ -86,3 +86,9 @@ Para simular requiseições HTTP:
 
 Para gerar dados fake: [FakerJs](http://marak.github.io/faker.js/)
 
+#### Validação
+
+Yup is a JavaScript schema builder for value parsing and validation.
+- yarn add yup
+[Yup](https://www.npmjs.com/package/yup?activeTab=readme)
+
